@@ -75,6 +75,7 @@ p {
 .gradient-text {
     background: linear-gradient(90deg, var(--primary-cyan), var(--primary-blue));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
